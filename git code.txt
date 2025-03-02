@@ -1,0 +1,35 @@
+PWSKILLS - 8299751032
+---------------------
+
+git init
+git remote add origin <>
+
+git config --global user.name "username"
+git config --global user.mail "usermail"
+
+git status
+git add .
+git commit -m "msg"
+
+git push -u origin master
+git pull origin master
+
+-> copy in the local repo
+	git clone <>
+
+
+-> copy in the remote repo
+	git fork
+-we can change the code without affecting the changes in the remote repo, means we cannot pull to that repo,for that we have to fork it.
+-can do through the GUI
+
+-> BRANCH
+		
+git branch
+git branch -a
+
+git checkout -b "branch_name"
+git push -u origin branch_name
+
+PULL REQUEST -> to team lead for merging to main branch
+once the pull request is confirmed for merges to main branch the file in branch is now in main branch
